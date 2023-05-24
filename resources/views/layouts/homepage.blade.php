@@ -29,7 +29,11 @@
     <a href="#about" class="scroll-to" data-offset="0"><i class="las la-arrow-circle-down"></i></a>
     <img src="{{ asset('/images/header.jpg') }}" width="1920" height="900" alt="" class="w-100">
 
-    <div class="contact-form">
+    <div class="slider-apla">
+        <h1>Najnowsza inwestycja <br><b>Białołęka przy ul. Ostródzkiej</b></h1>
+    </div>
+
+    <div class="contact-form d-none">
         <div class="row">
             <div class="col-12">
                 <label for="formName" class="form-label">Imię</label>
@@ -62,7 +66,7 @@
     </div>
 </div>
 
-<section id="about">
+<section id="about" class="d-none">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -74,7 +78,7 @@
     </div>
 </section>
 
-<section class="pt-0">
+<section>
     <div class="container-fluid p-0">
         <div class="row m-0">
             <div class="col-6 ps-0 pe-5">

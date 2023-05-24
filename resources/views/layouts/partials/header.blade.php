@@ -2,7 +2,7 @@
     <header id="header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 col-lg-2">
+                <div class="col-6 col-lg-2 p-0">
                     <div id="logo">
                         <a href="/" aria-label="Link strony głównej">
                             <img src="{{ asset("images/antracyt-logo.png") }}" alt="Logo {{ settings()->get("page_title") }}" width="328" height="73">
